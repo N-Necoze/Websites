@@ -1,4 +1,35 @@
-body{
+body {
+    margin: 0px;
     background-color: black;
     color: white;
+}
+
+/* first block */
+.first-block {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 3px 8px 11px -3px rgba(255, 255, 255, 0.56);
+    -webkit-box-shadow: 3px 8px 11px -3px rgba(255, 255, 255, 0.56);
+    -moz-box-shadow: 3px 8px 11px -3px rgba(255, 255, 255, 0.56);
+}
+
+.title {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    line-height: 0;
+}
+
+.sub-title {
+    text-align: center;
+    line-height: 0;
+}
+
+.logo {
+    padding-right: 5px;
+    width: 40px;
+}
+
+.right-first {
+    display: flex;
+    align-self: center;
 }
